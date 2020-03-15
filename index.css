@@ -118,7 +118,6 @@
     font-size: 6px;
     margin-left: 97px;
     color: #ff0000;
-    display: none;
 }
 .tel{
     font-size: 14px;
@@ -151,7 +150,6 @@
     font-size: 6px;
     margin-left: 97px;
     color: #ff0000;
-    display: none;
 }
 .pwd{
     font-size: 14px;
@@ -184,7 +182,6 @@
     font-size: 6px;
     margin-left: 97px;
     color: #ff0000;
-    display: none;
 }
 #password-input-tips{
     width: 5px;
@@ -251,9 +248,8 @@
     margin-left: 10px;
 }
 #verifyCode-input-validate{
-    position: relative;
-    left: -350px;
-    top: 40px;
+    position: absolute;
+    top: 270px;
     font-size: 6px;
     margin-left: 97px;
     color: #ff0000;
@@ -274,6 +270,5 @@
     text-align: center;
     margin-top: 100px;
     margin-left: 41px;
-    position: fixed;
-    top:430px
+    position: relative;
 }

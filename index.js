@@ -37,38 +37,35 @@ $(function () {
 
         if ($data.val() === '') {
             $msg.html('不能为空');
-            $msg.css('display', 'block');
             return false;
-        } else {
-            $msg.css('display', 'none');
         }
         if (field == '#username-input') {
             if (!(/^(?!\d+$)[a-zA-Z0-9-_\u4E00-\u9FA5]+$/.test($data.val()))) {
-                $msg.css('display', 'block');
+                $msg.html('用户名仅支持中英文、数字和下划线、且不能为纯数字');
                 return false;
-            } else {
-                $msg.css('display', 'none');
+            }else{
+                $msg.html('');
             }
 
         }
         if (field == '#phone-input') {
             if (!(/^((13[0-9])|(17[0-1,6-8])|(15[^4,\\D])|(18[0-9]))\d{8}$/.test($data.val()))) {
-                $msg.css('display', 'block');
+                $msg.html('手机号码格式不正确');
                 return false;
-            } else {
-                $msg.css('display', 'none');
+            } else{
+                $msg.html('');
             }
 
         }
         if (field == '#password-input') {
             if (!(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[^]{8,16}$/.test($data.val()))) {
-                $msg.css('display', 'block');
+                $msg.html('密码设置不符合要求');
                 return false;
-            } else {
-                $msg.css('display', 'none');
+            }else{
+                $msg.html('');
             }
-
         }
+        $msg.html();
         return true;
     }
 
