@@ -1,0 +1,28 @@
+{
+  "name": "BaiduRegister",
+  "version": "1.0.0",
+  "description": "SPA第二次雪梨作业",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houdesen/BaiduRegister.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/houdesen/BaiduRegister/issues"
+  },
+  "homepage": "https://github.com/houdesen/BaiduRegister#readme",
+  "devDependencies": {
+    "grunt-contrib-uglify": "^3.3.0"
+  }
+}
