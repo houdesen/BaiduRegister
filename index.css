@@ -249,11 +249,11 @@
 }
 #verifyCode-input-validate{
     position: absolute;
+    left:0;
     top: 270px;
     font-size: 6px;
     margin-left: 97px;
     color: #ff0000;
-    display: none;
 }
 #btn{
     width: 399px;
