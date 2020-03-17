@@ -43,6 +43,7 @@ $(function () {
             $msg.html('不能为空');
             return false;
         }
+        
         if (field == '#username-input') {
             if (!(/^(?!\d+$)[a-zA-Z0-9-_\u4E00-\u9FA5]+$/.test($data.val()))) {
                 $msg.html('用户名仅支持中英文、数字和下划线、且不能为纯数字');
