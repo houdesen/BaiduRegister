@@ -79,7 +79,7 @@ $(function () {
                 countdown = 60;
                 clearInterval(time);
             } else {
-                $('#verifyCode-input-validate').html();
+                $('#verifyCode-input-validate').html('');
                 countdown--;
                 $(".getVerifyCode").val("重新发送(" + countdown + ")");
             }
