@@ -4,7 +4,7 @@
   "description": "SPA第二次雪梨作业",
   "main": "index.js",
   "dependencies": {
-    "grunt": "^1.0.4",
+    "grunt": "^1.5.2",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-htmlmin": "^3.1.0"
   },
